@@ -17,3 +17,10 @@ with sync_playwright() as p:
     page.fill("#last-name", "Doe")
     page.fill("#postal-code", "12345")
     page.screenshot(path="./screenshot/examplecheckout.png", full_page=True)
+    page.click("#continue")
+    page.screenshot(path="./screenshot/exampleconfirmation.png",
+                    full_page=True)
+    page.click("#finish")
+    page.screenshot(path="./screenshot/examplefinish.png", full_page=True)
+    page.click("#back-to-products")
+    page.screenshot(path="./screenshot/exampleback.png", full_page=True)
