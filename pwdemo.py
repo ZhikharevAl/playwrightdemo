@@ -6,3 +6,4 @@ with sync_playwright() as p:
     page.fill("#user-name", "standard_user")
     page.fill("#password", "secret_sauce")
     page.click("#login-button")
+    page.screenshot(path="./screenshot/example.png", full_page=True)
