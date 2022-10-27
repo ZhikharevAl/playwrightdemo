@@ -1,4 +1,4 @@
-# Тестирование критического пути с использованием Playwrite на примере сайта https://www.saucedemo.com/.
+# Тестирование критического пути с использованием Playwright на примере сайта https://www.saucedemo.com/.
 - Зайти на сайт https://www.saucedemo.com/
 - Ввести логин, пароль
 - Нажать LOGIN
@@ -12,6 +12,6 @@
 ## Tools
 Инструкции по их использованию в вашем собственном приложении приведены ниже.
 
-| Tool      | README                                   |
-|-----------|------------------------------------------|
-| Playwrite | https://playwright.dev/python/docs/intro |
+| Tool       | README                                   |
+|------------|------------------------------------------|
+| Playwright | https://playwright.dev/python/docs/intro |
